@@ -1,0 +1,66 @@
+.addProduct{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    margin-bottom: 15px !important;
+    padding: 5px 10px;
+}
+input[type=file]{
+    padding: 0;
+}
+select{
+    margin-bottom: 15px !important;
+    padding: 5px 10px;
+}
+label{
+   margin-bottom: 15px;
+    font-weight: bold;
+}
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;
+    background-color:#cacac6;
+    height: 1px;
+}
+.submitContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.save{
+    width:150px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: red;
+    color: white;
+}
+.cancel{
+    width:150px;
+    height: 36px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+
+}
+.uploadImage{
+    width:100px;
+    border:1px solid red;
+    background: white;
+    color:red;
+    border-radius: 5px;
+}

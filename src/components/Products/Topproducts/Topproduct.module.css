@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    flex-direction: row;
+    border-bottom: 1px solid #d1d5de;
+    padding: 15px 0;
+}
+.contentImage{
+    border-radius: 8px;
+    width: 60px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    justify-content: space-between;
+}
+.star{
+    color:#eca524fc;
+    margin-right: 3px;
+}
+.productName{
+    font-weight: bold;
+    margin:0;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+}

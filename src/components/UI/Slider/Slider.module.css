@@ -1,0 +1,14 @@
+.priceDetails{
+    display:flex;
+}
+.slider{
+    padding-left: 8px;
+}
+.filter{
+    width:25%;
+    border-radius: 5px;
+    color:white;
+    background:#dc3545;
+    border-color:#dc3545;
+    text-align: center;
+}
